@@ -44,7 +44,7 @@
     height:56px;
     background-color: black;
     padding-left: 36%;
-    padding-right: 36%;
+    padding-right: 20%;
     padding-bottom: 0%;
     margin-bottom: 0%;
     border-bottom: 0px;
@@ -172,4 +172,32 @@ body {
     color: #3e66d5;
     border: 0;
     background-color: transparent;
+}
+
+.x-button{
+    margin:0px;
+    padding:0px;
+    justify-self: flex-end;
+    border:0px;
+    background-color: black;
+}
+.top-div{
+ margin: 0px;
+ padding:0px;
+ flex-flow: row;
+ background-color: black;
+ border:0px;
+}
+
+.x-image{
+    width: 35px;
+    height: 35px;
+    background-color: black;
+    border-color: black;
+    padding-bottom: 10px;
+    border:0px;
+}
+
+.x-button-div{
+
 }
