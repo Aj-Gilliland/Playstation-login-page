@@ -1,0 +1,175 @@
+.img-wallpaper {
+
+    width:100%;
+    height:100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    direction: ltr;
+    unicode-bidi: isolate;
+    border: 0px;
+    border-radius: 0px;
+    
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 2;
+    flex-direction: column;
+    width: 400px;
+    height: 558px;
+    background-color: white;
+    justify-content: center;
+    align-content: center;
+}
+
+.playstation-logo {
+    
+    align-items: flex-start;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-top: -5px;
+    border:0px;
+}
+
+.sony-logo {
+    width:auto;
+    height:56px;
+    background-color: black;
+    padding-left: 36%;
+    padding-right: 36%;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+    border-bottom: 0px;
+}
+
+body {
+    padding:0;
+    margin:-5px;
+}
+
+.sign-in-text {
+
+    line-height: 1.8rem;
+    font-size: 13px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-left: 7px;
+}
+
+.text-container {
+
+    padding-left:25px;
+    text-align: left;
+    cursor: pointer;
+    background-color: transparent;
+    border-color: transparent;
+    font-size: 13px;
+}
+
+.learn-more {
+
+    color: #3e66d5;
+    cursor: pointer;
+    background-color: transparent;
+    border-color: transparent;
+    font-size: 13px;
+    margin-top: -7px;
+}
+.learn-more:hover{
+    color: #2b4899;
+    cursor: pointer;
+    background-color: transparent;
+    border-color: transparent;
+    font-size: 13px;
+    margin-top: -7px;
+}
+
+.email-input {
+
+    border-radius: 1px;
+    border-style: solid;
+    border-width: 0.1px;
+    box-sizing: border-box;
+    height: 100%;
+    padding: 0 1rem;
+    width: 304px;
+    height: 36px;
+    font-size:medium;
+    color: rgba(0,0,0,.75);
+    border-color: rgba(0, 0, 0, 0.245);
+    
+
+}
+.email-input:focus { 
+    outline: none !important; 
+}
+
+.email-div {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.next-button{
+    border-radius: 0.1px;
+    height: 36px;
+    width: 304px;
+    background-color: #3e66d5;
+    border-color: transparent;
+    color:white;
+}
+
+.next-button-div{
+    padding-left: 20px;
+    padding-top: 15px;
+
+}
+
+.password-reset {
+    padding-left:18px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.create-account {
+    border-color:azure;
+    border-radius: 0.2rem;
+    border: 0.01rem solid #c8c8c8;
+    box-sizing: border-box;
+    background-color: transparent;
+    padding-left:95px;
+    padding-right:95px;
+    padding-top:10px;
+    padding-bottom:10px;
+
+}
+
+.div-create-account {
+    text-align: center;
+    margin-top:20px;
+    margin-right:25px;
+}
+
+.site-help{
+    border: 0;
+    background-color: transparent;
+    color: rgba(0,0,0,.55);
+}
+
+.div-site-help{
+    text-align: center;
+    margin-right:40px;
+    margin-top: 100px;
+}
+
+.site-help:hover{
+    color: #3e66d5;
+    border: 0;
+    background-color: transparent;
+}
